@@ -191,40 +191,56 @@
 
         <div class="column">
           <div class="social">
-            <h4 class="title">Social media:</h4>
+            <p class="title">Social media:</p>
       
             <ul class="social-list">
               <li>
-                <button class="social-button">
+                <a href="#" class="social-button">
                   <svg class="svg-sprite">
                     <use xlink:href="./images/icons.svg#icon-ih" width="25" height="25"></use>
                   </svg>
-                </button>
+                </a>
               </li>
               <li>
-                <button class="social-button">
+                <a href="#" class="social-button">
                   <svg class="svg-sprite">
                     <use xlink:href="./images/icons.svg#icon-th" width="25" height="25"></use>
                   </svg>
-                </button>
+                </a>
               </li>
               <li>
-                <button class="social-button">
+                <a href="#" class="social-button">
                   <svg class="svg-sprite">
                     <use xlink:href="./images/icons.svg#icon-fh" width="25" height="25"></use>
                   </svg>
-                </button>
+                </a>
               </li>
               <li>
-                <button class="social-button">
+                <a href="#" class="social-button">
                   <svg class="svg-sprite">
                     <use xlink:href="./images/icons.svg#icon-inh" width="25" height="25"></use>
                   </svg>
-                </button>
+                </a>
               </li>
             </ul>
           </div>
         </div>
+
+        <div class="column">
+          <p class="title">Subscribe</p>
+          <form name="subscribe_form" autocomplete="off" novalidate class="subscribe-form">
+            <label for="subscribe-input" class="label">Email</label>
+            
+            <input type="email" placeholder="Email" name="subscribe_email" class="subscribe-input" id="subscribe-input" />
+
+            <button type="submit" class="submit-button">
+              Subscribe
+              <svg class="svg-sprite">
+                <use xlink:href="./images/icons.svg#icon-arrow" width="24" height="24"></use>
+              </svg>
+            </button>
+          </form>
+        </div>        
       </div>
     </div>
   </footer>
