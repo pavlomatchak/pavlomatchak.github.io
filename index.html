@@ -43,6 +43,83 @@
             </li>
           </ul>
         </address>
+
+        <button class="mobile-menu-trigger" data-menu-open>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav is-hidden" data-menu>
+      <div class="mobile-nav-content">
+        <button class="close" data-menu-close>
+          <svg class="svg-sprite">
+            <use xlink:href="./images/icons.svg#icon-close2" width="30" height="30"></use>
+          </svg>
+        </button>
+  
+        <nav>
+          <ul class="mobile-main-nav">
+            <li class="nav-item active">
+              <a href="./index.html" class="nav-link">Studio</a>
+            </li>
+  
+            <li class="nav-item">
+              <a href="./portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+  
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+  
+        <div class="bottom">
+          <address>
+            <ul class="mobile-address-nav">
+              <li class="nav-item phone">
+                <a href="tel:+11(000)111-11-11" class="nav-link">+11 (000) 111-11-11</a>
+              </li>
+  
+              <li class="nav-item email">
+                <a href="mailto:info@devstudio.com" class="nav-link">info@devstudio.com</a>
+              </li>
+            </ul>
+          </address>
+  
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-button">
+                <svg class="svg-sprite">
+                  <use xlink:href="./images/icons.svg#icon-ih" width="25" height="25"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-button">
+                <svg class="svg-sprite">
+                  <use xlink:href="./images/icons.svg#icon-th" width="25" height="25"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-button">
+                <svg class="svg-sprite">
+                  <use xlink:href="./images/icons.svg#icon-fh" width="25" height="25"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-button">
+                <svg class="svg-sprite">
+                  <use xlink:href="./images/icons.svg#icon-inh" width="25" height="25"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
@@ -105,21 +182,39 @@
     </section>
    
 
-    <section id="portfolio" class="portfolio">
+   <section id="portfolio" class="portfolio">
       <div class="container">
         <h2 class="section-title">What are we doing</h2>
 
         <ul class="list">
           <li class="list-item">
-            <img src="./images/index/portfolio-1.jpg" alt="Some portfolio item 1" height="300" width="360" class="list-image" />
+            <img
+              srcset="./images/index/portfolio-1.jpg 1x, ./images/index/portfolio-1@2x.jpg 2x"
+              src="./images/index/portfolio-1.jpg"
+              alt="Some portfolio item 1"
+              height="300"
+              width="360"
+              class="list-image" />
           </li>
 
           <li class="list-item">
-            <img src="./images/index/portfolio-2.jpg" alt="Some portfolio item 2" height="300" width="360" class="list-image" />
+            <img
+              srcset="./images/index/portfolio-2.jpg 1x, ./images/index/portfolio-2@2x.jpg 2x"
+              src="./images/index/portfolio-2.jpg"
+              alt="Some portfolio item 2"
+              height="300"
+              width="360"
+              class="list-image" />
           </li>
 
           <li class="list-item">
-            <img src="./images/index/portfolio-3.jpg" alt="Some portfolio item 3" height="300" width="360" class="list-image" />
+            <img
+              srcset="./images/index/portfolio-3.jpg 1x, ./images/index/portfolio-3@2x.jpg 2x"
+              src="./images/index/portfolio-3.jpg"
+              alt="Some portfolio item 3"
+              height="300"
+              width="360"
+              class="list-image" />
           </li>
         </ul>
       </div>
@@ -131,7 +226,13 @@
 
         <ul class="list">
           <li class="list-item">
-            <img src="./images/index/mark.jpg" alt="Mark Guerrero" height="260" width="264" class="list-image" />
+            <img
+              srcset="./images/index/mark.jpg 1x, ./images/index/mark@2x.jpg 2x"
+              src="./images/index/mark.jpg"
+              alt="Mark Guerrero"
+              height="260"
+              width="264"
+              class="list-image" />
             <div class="about">
               <h3 class="list-title">Mark Guerrero</h3>
               <p class="list-description">Product Designer</p>
@@ -169,7 +270,13 @@
           </li>
 
           <li class="list-item">
-            <img src="./images/index/tom.jpg" alt="Tom Ford" height="260" width="264" class="list-image" />
+            <img
+              srcset="./images/index/tom.jpg 1x, ./images/index/tom@2x.jpg 2x"
+              src="./images/index/tom.jpg"
+              alt="Tom Ford"
+              height="260"
+              width="264"
+              class="list-image" />
             <div class="about">
               <h3 class="list-title">Tom Ford</h3>
               <p class="list-description">Frontend Developer</p>
@@ -207,7 +314,13 @@
           </li>
 
           <li class="list-item">
-            <img src="./images/index/camila.jpg" alt="Camila Garcia" height="260" width="264" class="list-image" />
+            <img
+              srcset="./images/index/camila.jpg 1x, ./images/index/camila@2x.jpg 2x"
+              src="./images/index/camila.jpg"
+              alt="Camila Garcia"
+              height="260"
+              width="264"
+              class="list-image" />
             <div class="about">
               <h3 class="list-title">Camila Garcia</h3>
               <p class="list-description">Marketing</p>
@@ -245,7 +358,13 @@
           </li>
 
           <li class="list-item">
-            <img src="./images/index/daniel.jpg" alt="Daniel Wilson" height="260" width="264" class="list-image" />
+            <img
+              srcset="./images/index/daniel.jpg 1x, ./images/index/daniel@2x.jpg 2x"
+              src="./images/index/daniel.jpg"
+              alt="Daniel Wilson"
+              height="260"
+              width="264"
+              class="list-image" />
             <div class="about">
               <h3 class="list-title">Daniel Wilson</h3>
               <p class="list-description">UI Designer</p>
@@ -386,11 +505,11 @@
           </div>
         </div>
 
-        <div class="column">
+        <div class="column subscribe">
           <p class="title">Subscribe</p>
           <form name="subscribe_form" autocomplete="off" novalidate class="subscribe-form">
             <label for="subscribe-input" class="label">Email</label>
-            
+
             <input type="email" placeholder="Email" name="subscribe_email" class="subscribe-input" id="subscribe-input" />
 
             <button type="submit" class="submit-button">
@@ -472,5 +591,6 @@
     </div>
   </div>
   <script src="./js/modal.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
