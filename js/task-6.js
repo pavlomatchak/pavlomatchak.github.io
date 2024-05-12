@@ -11,15 +11,14 @@ function getRandomHexColor() {
 
 function createBoxes(ammount) {
   let size = 30;
+  let content = '';
 
   for (let i = 1; i <= ammount; i++) {
-    const element = document.createElement('div');
-    element.style.backgroundColor = getRandomHexColor();
-    element.style.height = `${size}px`;
-    element.style.width = `${size}px`;
+    content = content + `<div style="background-color: ${getRandomHexColor()}; height: ${size}px; width: ${size}px"></div>`;
     size += 10;
-    container.append(element);
   }
+
+  container.insertAdjacentHTML('afterbegin', content);
 }
 
 function destroyBoxes() {
