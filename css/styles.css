@@ -1,0 +1,22 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+.gallery-item {
+  list-style: none;
+  width: calc((100% - 20px) / 3);
+}
+
+.gallery-link {
+  pointer-events: none;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+}
