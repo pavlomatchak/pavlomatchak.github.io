@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  justify-content: left;
+  padding-top: 5px;
+}
+
+.input {
+  background-color: transparent;
+  color: #000;
+  height: 40px;
+  margin-right: 2px;
+}

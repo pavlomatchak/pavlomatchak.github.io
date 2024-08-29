@@ -1,0 +1,34 @@
+.page {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie {
+  align-items: flex-start;
+  border-bottom: 2px solid rgb(192, 190, 190);
+  display: flex;
+  gap: 20px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.poster {
+  width: 300px;
+}
+
+.additional {
+  text-align: left;
+}
+
+.back {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.back:hover {
+  color: #f55742;
+}
