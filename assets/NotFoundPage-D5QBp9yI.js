@@ -1,0 +1,1 @@
+import{j as e,L as a}from"./index-BtQMCz1v.js";const o="_page_y68ui_1",r="_header_y68ui_7",s={page:o,header:r},n=()=>e.jsxs("div",{className:s.page,children:[e.jsx("h1",{className:s.header,children:"404"}),e.jsx(a,{to:"/",children:"Go home"})]});export{n as default};
